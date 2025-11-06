@@ -1,0 +1,36 @@
+{
+	"name": "ddd-frontend-template",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"format": "npx @biomejs/biome format --write",
+		"lint:fix": "npx @biomejs/biome lint --write"
+	},
+	"dependencies": {
+		"@reduxjs/toolkit": "^2.8.2",
+		"@tanstack/react-query": "^5.81.5",
+		"axios": "^1.10.0",
+		"next": "^14.2.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-redux": "^9.2.0",
+		"redux-persist": "^6.0.0",
+		"reflect-metadata": "^0.2.2",
+		"tsyringe": "^4.10.0",
+		"zod": "^4.1.9"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.0.4",
+		"@types/node": "20.11.5",
+		"@types/react": "18.2.48",
+		"@types/react-dom": "18.2.18",
+		"eslint": "^8.57.0",
+		"eslint-config-next": "^14.2.0",
+		"typescript": "5.3.3"
+	}
+}
+
